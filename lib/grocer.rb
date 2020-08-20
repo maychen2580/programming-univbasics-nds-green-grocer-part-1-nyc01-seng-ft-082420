@@ -30,6 +30,7 @@ if item
   receipt[receipt_index][:count] +=1
 end
 receipt_index += 1
+end
 else
   cart[index][:count] = 1
   receipt << cart[index]
